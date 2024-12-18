@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Chore Chart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 95%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 6px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .chore-name {
+            text-align: left;
+            padding-left: 10px;
+        }
+        .completion-box {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #000;
+            margin: auto;
+        }
+        .total, .completion-bonus {
+            font-weight: bold;
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Weekly Chore Chart</h1>
+
+<table>
+    <tr>
+        <th rowspan="2">Chore</th>
+        <th rowspan="2">Value</th>
+        <th rowspan="2">When</th>
+        <th colspan="7">Days of the Week</th>
+        <th rowspan="2">Bonus</th>
+        <th rowspan="2">Total</th>
+    </tr>
+    <tr>
+        <th>Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr>
+
+    <!-- Chore Rows Start Here -->
+    <tr>
+        <td class="chore-name">Empty Dishwasher</td>
+        <td>$0.50</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$6.50</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Make Bed</td>
+        <td>$0.50</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$6.50</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Ruth: Food / Water</td>
+        <td>$0.50</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$6.50</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Cats: Food / Water</td>
+        <td>$0.50</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$6.50</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Chickens: Food / Water</td>
+        <td>$1.00</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$10.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Dirty Laundry Gather</td>
+        <td>$1.00</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$10.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Load and Switch Laundry</td>
+        <td>$1.00</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$10.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Set and Clear Table</td>
+        <td>$1.00</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$10.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Wash Dishes / Load Dishwasher</td>
+        <td>$1.00</td>
+        <td>Daily</td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td><div class="completion-box"></div></td>
+        <td>$3.00</td>
+        <td>$10.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Sunroom: Clean / Vacuum</td>
+        <td>$5.00</td>
+        <td>Weekly</td>
+        <td colspan="7"><div class="completion-box"></div></td>
+        <td>$0.00</td>
+        <td>$5.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Back Door Hall: Clean / Vacuum</td>
+        <td>$5.00</td>
+        <td>Weekly</td>
+        <td colspan="7"><div class="completion-box"></div></td>
+        <td>$0.00</td>
+        <td>$5.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Dining Room: Clean / Vacuum</td>
+        <td>$5.00</td>
+        <td>Weekly</td>
+        <td colspan="7"><div class="completion-box"></div></td>
+        <td>$0.00</td>
+        <td>$5.00</td>
+    </tr>
+    <tr>
+        <td class="chore-name">Front Room: Clean / Vacuum</td>
+        <td>$5.00</td>
+        <td>Weekly</td>
+        <td colspan="7"><div class="completion-box"></div></td>
+        <td>$0.00</td>
+        <td>$5.00</td>
+    </tr>
+    <!-- Chore Rows End Here -->
+
+    <tr class="total">
+        <td colspan="11" style="text-align: right;">Total Weekly Earnings</td>
+        <td></td>
+    </tr>
+</table>
+
+</body>
+</html>
